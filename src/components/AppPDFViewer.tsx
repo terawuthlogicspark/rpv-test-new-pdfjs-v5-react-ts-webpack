@@ -1,0 +1,32 @@
+import React from "react";
+import {
+  RPConfig,
+  RPProvider,
+  RPDefaultLayout,
+  RPPages,
+  RPProviderProps,
+  RPLayoutProps,
+} from "@pdf-viewer/react";
+
+interface Props {
+  showToolbar?: boolean;
+  providerProps?: RPProviderProps;
+  defaultLayoutProps?: RPLayoutProps;
+}
+
+export const AppPDFViewer = (props: Props) => {
+  const { showToolbar = true, providerProps, defaultLayoutProps } = props;
+
+  return (
+    <RPConfig workerUrl={'/pdf.worker.min.mjs'}>
+      <RPProvider
+        src="https://cdn.codewithmosh.com/image/upload/v1721763853/guides/web-roadmap.pdf"
+        {...providerProps}
+      >
+        <RPDefaultLayout {...defaultLayoutProps}>
+          <RPPages />
+        </RPDefaultLayout>
+      </RPProvider>
+    </RPConfig>
+  );
+};
