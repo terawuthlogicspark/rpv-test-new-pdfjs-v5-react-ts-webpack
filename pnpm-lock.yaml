@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@pdf-viewer/react':
-        specifier: 0.0.0-experimental.1
-        version: 0.0.0-experimental.1(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(pdfjs-dist@5.4.54)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        specifier: 0.0.0-experimental.2
+        version: 0.0.0-experimental.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(pdfjs-dist@5.4.54)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       pdfjs-dist:
         specifier: 5.4.54
         version: 5.4.54
@@ -757,8 +757,8 @@ packages:
     resolution: {integrity: sha512-ReCjd5SYI/UKx/olaQLC4GtN6wUQGjlgHXs1lvUvWGXfBMR3Fxnik3cL+OxKN5ithNdoU0/GlCrdKcQDFh2XKQ==}
     engines: {node: '>= 10'}
 
-  '@pdf-viewer/react@0.0.0-experimental.1':
-    resolution: {integrity: sha512-IhAMtCpj/0iM3+fdBzC73JFM7qUCsfeLtIzxc28Wv6UnfX4hfwY8ii3DMhcsaOyChbNjAb50Q/Er0jLvmYUWww==}
+  '@pdf-viewer/react@0.0.0-experimental.2':
+    resolution: {integrity: sha512-U3+z6cVGNGEA+5NO4txH7cxgmWM8KQC7n45GmfHfVCi2sAn5ee2ih1fOpjFGF6N5RuJIObi5r0hCrIXOFh0GFw==}
     peerDependencies:
       pdfjs-dist: 5.4.394
       react: ^18.2.0 || ^19.0.0
@@ -3716,7 +3716,7 @@ snapshots:
       '@napi-rs/canvas-win32-x64-msvc': 0.1.81
     optional: true
 
-  '@pdf-viewer/react@0.0.0-experimental.1(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(pdfjs-dist@5.4.54)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@pdf-viewer/react@0.0.0-experimental.2(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(pdfjs-dist@5.4.54)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@radix-ui/react-checkbox': 1.3.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@radix-ui/react-popover': 1.0.6(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
